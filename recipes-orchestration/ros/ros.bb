@@ -19,7 +19,7 @@ DEPLOY_FILE = "${@bb.utils.contains('CORE_IMAGE_EXTRA_INSTALL', 'k3s', 'ros-depl
 
 do_install() {
     install -d ${D}/${sysconfdir}/edge-ai/scheduler
-    install -m 0755 ${WORKDIR}/build/ros ${D}/${sysconfdir}/edge-ai/scheduler/ros
+    install -m 0755 ${WORKDIR}/build/edge-ai-resource-oriented-scheduler ${D}/${sysconfdir}/edge-ai/scheduler/ros
     install -m 644 ${WORKDIR}/build/src/${GO_IMPORT}/sched-config-k3s.yaml ${D}/${sysconfdir}/edge-ai/scheduler/sched-config-k3s.yaml
     install -m 644 ${WORKDIR}/build/src/${GO_IMPORT}/sched-policy-k3s.json ${D}/${sysconfdir}/edge-ai/scheduler/sched-policy-k3s.json
     install -m 644 ${WORKDIR}/build/src/${GO_IMPORT}/sched-config-k8s.yaml ${D}/${sysconfdir}/edge-ai/scheduler/sched-config-k8s.yaml
