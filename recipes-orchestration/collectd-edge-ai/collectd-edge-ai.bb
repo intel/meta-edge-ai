@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://${WORKDIR}/git/LICENSE;md5=030cb33d2af49ccebca74d0588
 
 SRC_URI = "git://github.com/intel/edge-ai-collectd.git;protocol=https \
           "
-SRCREV = "06900c50259f17a31e5bab2a1e928240387684a7"
+SRCREV = "01b5ca10a49b8df6b2c8b87c72eacb1c61afbf7a"
 
 do_install() {
     install -d ${D}/${sysconfdir}/edge-ai/collectd
