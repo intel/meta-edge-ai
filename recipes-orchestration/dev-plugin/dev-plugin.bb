@@ -2,9 +2,9 @@ DESCRIPTION = "k3s device plugin for kmb resource"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=e3fc50a88d0a364313df4b21ef20c29e"
 
-SRC_URI = "git://github.com/intel/edge-ai-device-plugin.git;protocol=https \
+SRC_URI = "git://github.com/intel/edge-ai-device-plugin.git;protocol=https;branch=warrior \
           "
-SRCREV = "11a688842b629e9d0e97bda7add95ce40c219f15"
+SRCREV = "8c9f5262add166513be9594c46f64ec08a11f2ca"
 
 inherit go
 export GOCACHE = "${B}/.cache"
