@@ -3,11 +3,9 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=e23fadd6ceef8c618fc1c65191d846fa"
 
 SRC_URI = "git://github.com/intel/edge-ai-resource-oriented-scheduler.git;protocol=https"
-SRCREV = "6a2fca8e1ae3d9cf3d32b8b0ba4e7abd326fbd1e"
+SRCREV = "b3ba5e7f075a504e1b0020d2e9bf1d13d91a2ee6"
 
 inherit go
-
-export GOCACHE = "${B}/.cache"
 
 GO_IMPORT = "github.com/intel/edge-ai-resource-oriented-scheduler"
 
