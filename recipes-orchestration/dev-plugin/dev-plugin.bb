@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=e3fc50a88d0a364313df4b21
 
 SRC_URI = "git://github.com/intel/edge-ai-device-plugin.git;protocol=https \
           "
-SRCREV = "11a688842b629e9d0e97bda7add95ce40c219f15"
+SRCREV = "a0c2d8ef0b4302ea6d60ccd4bc39edb76dbffbf1"
 
 inherit go
 
