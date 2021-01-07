@@ -3,7 +3,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://src/${GO_IMPORT}/LICENSE;md5=e23fadd6ceef8c618fc1c65191d846fa"
 
 SRC_URI = "git://github.com/intel/edge-ai-resource-oriented-scheduler.git;protocol=https"
-SRCREV = "b3ba5e7f075a504e1b0020d2e9bf1d13d91a2ee6"
+SRCREV = "ed21e1a57c72116201ff8b82688ab5dd399380bd"
 
 inherit go
 
