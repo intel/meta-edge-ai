@@ -20,7 +20,7 @@ PV = "${K3S_VERSION}-${PR}"
 
 S = "${WORKDIR}"
 
-inherit distro_features_check
+inherit features_check
 
 # TODO: slirp4netns, bridge-utils ?
 RDEPENDS_${PN} = "util-linux findutils pigz iproute2 ethtool iptables socat ca-certificates \
